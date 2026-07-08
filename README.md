@@ -23,15 +23,17 @@ When a flame or fire source is detected, the system automatically switches from 
 
 ## 🛠️ Hardware Components
 
-| Component | Description |
-|-----------|-------------|
-| Arduino Uno | Main microcontroller for system control |
-| DHT Sensor | Measures temperature and humidity |
-| Flame Sensor | Detects presence of fire/flame |
-| Buzzer | Provides emergency alarm indication |
-| LED (Optional) | Visual status indication |
-| Breadboard & Jumper Wires | Circuit connections |
-| Power Supply | Provides required power to the system |
+| Component | Quantity | Description |
+|-----------|----------|-------------|
+| Arduino UNO | 1 | Main microcontroller used for sensor data processing and system control |
+| DHT11 Temperature & Humidity Sensor | 1 | Measures real-time temperature and humidity of the surrounding environment |
+| Flame Sensor Module | 1 | Detects fire or flame using infrared light sensing technology |
+| 16x2 LCD Display | 1 | Displays temperature, humidity, and system status messages |
+| Piezo Buzzer | 1 | Generates an audible alarm during fire detection |
+| 10KΩ Potentiometer | 1 | Used for adjusting LCD display contrast |
+| Jumper Wires | As required | Used for electrical connections between components |
+| Breadboard | 1 | Provides a platform for circuit prototyping |
+| Power Supply | 1 | Provides required power to the Arduino-based system |
 
 ---
 
@@ -67,7 +69,7 @@ The system operates in two modes:
 FireSense-System
 │
 ├── Code
-│   └── FireSense_System.ino
+│   └── FireSense_System_code.ino
 │
 ├── Circuit
 │   └── CKT.jpg
@@ -80,17 +82,19 @@ FireSense-System
 
 ## 🔮 Future Improvements
 
-- Add Wi-Fi connectivity using ESP32 for remote monitoring
-- Send mobile notifications during fire detection
-- Add OLED/LCD display for real-time sensor values
-- Integrate IoT cloud platforms for data logging
-- Add automatic fire suppression control
+- 🌐 Wi-Fi-based remote monitoring using **Arduino UNO R4 WiFi / ESP32**.
+- 📱 Mobile alerts for fire detection
+- ☁️ IoT cloud data logging
+- 📊 Sensor data analysis and storage
+- 🤖 Automatic fire suppression integration
+- 📷 Intelligent camera-based fire verification
 
 ---
 
 ## 👨‍💻 Developed By
 
-**Protyra Tech**
+Developed by **Rajdip Dutta**  
+at **Protyra Tech**
 
 Embedded Systems | IoT | Electronics Projects
 
@@ -98,4 +102,4 @@ Embedded Systems | IoT | Electronics Projects
 
 ## 📜 License
 
-This project is licensed under the **Apache License 2.0**.
+Copyright © 2026 Protyra Tech. All rights reserved.
